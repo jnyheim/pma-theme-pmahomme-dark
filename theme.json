@@ -1,0 +1,8 @@
+{
+    "name": "pmahomme Dark",
+    "version": "5.0",
+    "description": "a dark version of pmahomme (beta)",
+    "author": "jnyheim",
+    "url": "https://github.com/jnyheim",
+    "supports": ["5.0", "5.1"]
+}

@@ -1,0 +1,21 @@
+.btn-primary {
+  font-weight: $font-weight-bold;
+}
+
+.btn-primary,
+.btn-secondary {
+  border-color: #41454b;
+  background: #4589ff;
+
+  &:hover {
+    background: darken(#4589ff, 1%);
+    color: #fff;
+    border-color: transparent;
+  }
+
+  box-shadow: none;
+}
+
+.btn {
+  color: #ffffff;
+}

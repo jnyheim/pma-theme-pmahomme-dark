@@ -1,0 +1,32 @@
+.navbar.bg-light {
+  background: linear-gradient(#272c35, #20252c);
+}
+
+.navbar-nav {
+  font-weight: bold;
+}
+
+.navbar-nav .icon {
+  margin-#{$right}: 0.5em;
+  vertical-align: -3px;
+}
+
+.navbar-nav .nav-item {
+  background: linear-gradient(#272c35, #20252c);
+  border-#{$right}: 1px solid #181a1f;
+  border-#{$left}: 1px solid #111216;
+  border-bottom: 1px solid #111216;
+
+  &:first-child {
+    border-#{$left}: 0;
+  }
+
+  &:hover {
+    background: linear-gradient(#272c35, #20252c);
+  }
+
+  &.active {
+    background: #181a1f;
+    border-bottom: 0;
+  }
+}
